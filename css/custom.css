@@ -1,0 +1,20 @@
+#header{border-bottom: solid 1px #000000;}
+.header-top{background: #d42027; color: #fff; padding: 10px 0;}
+.header-top a, .header-top p, .header-top li{color: #fff; padding-bottom: 0; margin-bottom: 0;}
+.header-top .phone{float: left;}
+.header-top .social{float: right;}
+.header-wrapper{position: relative;}
+.slider .slides li img{background-position: top; }
+.desktoplogo img, .footer-logo img{max-height: 75px; position: relative;}
+.clear{clear: both;}
+.footer-copyright{text-align: center;}
+.slider, .slider .slides{
+    height: 700px;}
+    #about{background: #ffeff0; margin-top: 30px;}
+    .fbox-2{border: solid 1px #eee; padding: 30px 50px;
+        background-color: #fff;
+        -webkit-box-shadow: 0px 5px 10px 0 rgba(10, 10, 10, .05);
+        box-shadow: 0px 5px 10px 0 rgba(10, 10, 10, .05);    }
+        .custom-list{margin-top: 30px;}
+        .custom-list li{position: relative; padding-left: 40px; margin-bottom: 10px;}
+        .custom-list li::before{content: ""; position: absolute; left: 10px; top: 7px; width:10px; height: 10px; background: #d42027; border-radius: 100%;}
