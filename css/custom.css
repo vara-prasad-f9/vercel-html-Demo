@@ -1,20 +1,114 @@
-#header{border-bottom: solid 1px #000000;}
-.header-top{background: #d42027; color: #fff; padding: 10px 0;}
-.header-top a, .header-top p, .header-top li{color: #fff; padding-bottom: 0; margin-bottom: 0;}
-.header-top .phone{float: left;}
-.header-top .social{float: right;}
-.header-wrapper{position: relative;}
-.slider .slides li img{background-position: top; }
-.desktoplogo img, .footer-logo img{max-height: 75px; position: relative;}
-.clear{clear: both;}
-.footer-copyright{text-align: center;}
-.slider, .slider .slides{
-    height: 700px;}
-    #about{background: #ffeff0; }
-    .fbox-2{border: solid 1px #eee; padding: 30px 50px;
-        background-color: #fff;
-        -webkit-box-shadow: 0px 5px 10px 0 rgba(10, 10, 10, .05);
-        box-shadow: 0px 5px 10px 0 rgba(10, 10, 10, .05);    }
-        .custom-list{margin-top: 30px;}
-        .custom-list li{position: relative; padding-left: 40px; margin-bottom: 10px;}
-        .custom-list li::before{content: ""; position: absolute; left: 10px; top: 7px; width:10px; height: 10px; background: #d42027; border-radius: 100%;}
+.primarybg{  background: #d42027;}
+.secondarybg{ background: #0b173e;}
+#header {
+  border-bottom: solid 1px #000000;
+}
+.header-top {
+  background: #d42027;
+  color: #fff;
+  padding: 10px 0;
+}
+.header-top a,
+.header-top p,
+.header-top li {
+  color: #fff;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.header-top .phone {
+  float: left;
+}
+.header-top .social {
+  float: right;
+}
+.header-wrapper {
+  position: relative;
+}
+.slider .slides li img {
+  background-position: top;
+}
+.desktoplogo img,
+.footer-logo img {
+  max-height: 75px;
+  position: relative;
+}
+.clear {
+  clear: both;
+}
+.footer-copyright {
+  text-align: center;
+}
+.slider,
+.slider .slides {
+  height: 700px;
+}
+#about,
+#gallery-1 {
+  background: #f0f2f8;
+}
+.fbox-2 {
+  border: solid 1px #eee;
+  padding: 30px 50px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 5px 10px 0 rgba(10, 10, 10, 0.05);
+  box-shadow: 0px 5px 10px 0 rgba(10, 10, 10, 0.05);
+}
+.custom-list {
+  margin-top: 30px;
+}
+.custom-list li {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 10px;
+}
+.custom-list li::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 7px;
+  width: 10px;
+  height: 10px;
+  background: #d42027;
+  border-radius: 100%;
+}
+
+.page-title {
+  color: #d42027;
+  font-size: 50px;
+  line-height: 46px;
+  position: relative;
+  padding: 0 0 40px 0;
+  margin-bottom: 40px;
+}
+.page-title::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  margin-left: -10px;
+  bottom: 0;
+  background: url("../images/favicon.png") #fff;
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  z-index: 2;
+}
+.page-title::after {
+  content: "";
+  position: absolute;
+  left: 20%;
+  bottom: 8px;
+  width: 60%;
+  height: 1px;
+  background: #ccc;
+  z-index: 1;
+}
+#about .page-title::before {
+  background-color: #f0f2f8;
+}
+.gallery-section.bg-50 .slick-dots li button:before {
+  background: #0b173e;
+}
+.gallery-section.bg-50 .slick-dots li button:hover:before,
+.gallery-section.bg-50 .slick-dots li.slick-active button:before {
+  background: #d42027;
+}
