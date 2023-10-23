@@ -262,6 +262,40 @@
 		});	
 
 
+
+
+
+$('.main-banner').slick({
+			infinite: true,
+			autoplay: true,
+			dots: true,
+			autoplaySpeed: 1500,
+			speed: 1000,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			
+			
+		});	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		/*----------------------------------------------------*/
 		/*	Masonry Grid
 		/*----------------------------------------------------*/
