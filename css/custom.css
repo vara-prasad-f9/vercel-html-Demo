@@ -53,7 +53,7 @@
 }
 #about, #whychooseus{background: #1a0d52;}
 #gallery-1 {
-  
+  padding-bottom: 70px !important;
 }
 #whychooseus img{max-width: 100%; display: block; margin: 0 auto ;}
 .fbox-2 {
@@ -113,7 +113,7 @@
   background: #ccc;
   z-index: 1;
 }
-#about{margin-top: -30px;}
+
 #about .page-title::before {
   background-color: #f0f2f8;
 }
@@ -140,14 +140,14 @@
 .fbox-img img{width: 100% ; height: 100%; border-radius: 100%   ; object-fit: cover;}
 #features-10{background: #162d3b; text-align: center;}
 #features-10  .page-title, #features-10 p, #content-11 .page-title, #content-11 p,
-#reviews-1, #reviews-1 .page-title, #reviews-1 p{color: #fff;}
+#gallery-1 .page-title, #gallery-1 p{color: #fff;}
 #features-10 img{max-width: 100%;}
-#content-11:after,
-#reviews-1{
+#content-11{margin-top: -30px;}
+#content-11, #gallery-1{
     background: #1a0d52;
   }
-#content-11 .container{padding: 100px 0;}
-.gallery-carousel1 figure{width: 100%; height: 250px; margin: 0 15px;}
+#content-11 {}
+.gallery-carousel1 figure{width: 100%; height: 250px; margin: 0 15px; background: #fff;}
 .gallery-carousel1 figure img{
   width: 100%;
   height: 100%;
