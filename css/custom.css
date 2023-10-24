@@ -51,7 +51,7 @@
   width: 100%;
   height: auto !important;
 }
-#about, #whychooseus{background: #1a0d52;}
+ #whychooseus{background: #1a0d52;}
 #gallery-1 {
   padding-bottom: 70px !important;
 }
@@ -117,7 +117,7 @@
 #about .page-title::before {
   background-color: #f0f2f8;
 }
-#about .page-title, #about h3, #about p,
+
 #whychooseus .page-title,
 #whychooseus h3,
 #whychooseus p{color: #fff;}
@@ -138,14 +138,18 @@
 .main-banner.slick-dotted.slick-slider{margin: 0;}
 .fbox-img{border-radius: 100%; width: 300px; height: 300px;}
 .fbox-img img{width: 100% ; height: 100%; border-radius: 100%   ; object-fit: cover;}
-#features-10{background: #162d3b; text-align: center;}
-#features-10  .page-title, #features-10 p, #content-11 .page-title, #content-11 p,
-#gallery-1 .page-title, #gallery-1 p{color: #fff;}
+#features-10{background: #1a0d52; text-align: center;}
+#features-10  .page-title, #features-10 p, 
+#gallery-1 .page-title, #gallery-1 p, #content-11,
+#content-11 .page-title, 
+#content-11 p{color: #fff;}
 #features-10 img{max-width: 100%;}
-#content-11{margin-top: -30px;}
-#content-11, #gallery-1{
+#content-11{margin-top: -30px; }
+ #gallery-1, #content-11{
     background: #1a0d52;
   }
+ #vision-mission {background:#e9e9ea}
+    #content-11:after{display: none;}
 #content-11 {}
 .gallery-carousel1 figure{width: 100%; height: 250px; margin: 0 15px; background: #fff;}
 .gallery-carousel1 figure img{
