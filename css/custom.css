@@ -37,7 +37,7 @@
 }
 .desktoplogo img,
 .footer-logo img {
-  max-height: 75px;
+  max-height: 45px;
   position: relative;
 }
 .clear {
@@ -53,7 +53,7 @@
 }
 #about, #whychooseus{background: #1a0d52;}
 #gallery-1 {
-  background: #f0f2f8;
+  
 }
 #whychooseus img{max-width: 100%; display: block; margin: 0 auto ;}
 .fbox-2 {
@@ -128,7 +128,7 @@
 .gallery-section.bg-50 .slick-dots li.slick-active button:before {
   background: #d42027;
 }
-
+.btn-primary{background: #d42027;}
 .main-slider{width: 100%;}
 
 .main-banner{width: 100%;}
@@ -139,5 +139,49 @@
 .fbox-img{border-radius: 100%; width: 300px; height: 300px;}
 .fbox-img img{width: 100% ; height: 100%; border-radius: 100%   ; object-fit: cover;}
 #features-10{background: #162d3b; text-align: center;}
-#features-10  .page-title, #features-10 p{color: #fff;}
+#features-10  .page-title, #features-10 p, #content-11 .page-title, #content-11 p,
+#reviews-1, #reviews-1 .page-title, #reviews-1 p{color: #fff;}
 #features-10 img{max-width: 100%;}
+#content-11:after,
+#reviews-1{
+    background: #1a0d52;
+  }
+#content-11 .container{padding: 100px 0;}
+.gallery-carousel1 figure{width: 100%; height: 250px; margin: 0 15px;}
+.gallery-carousel1 figure img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto ;
+  object-fit: contain;
+}
+
+.wsmenu>.wsmenu-list>li>a{font-size: 13px; padding: 10px 8px; margin: 0 5px; }
+
+input, select, textarea{border-color: #ccc !important;}
+
+
+@media (min-width: 992px) and (max-width: 1199.95px){
+  .wsmenu>.wsmenu-list>li>a{font-size: 13px !important; padding: 10px 12px !important;}
+}
+
+@media   (max-width: 991px) {
+
+  #header{border: none;}
+    .hero-section{margin-top:30px !important;}
+        .header-top{display: none;}
+                .wide-60{padding: 40px 0 !important;}
+.page-title{font-size: 30px;}
+#about{text-align: center;}
+
+.fbox-2{padding: 15px !important;}
+.gallery-carousel1 figure{}
+#content-11{text-align: center; background: #1a0d52; padding-top: 30px; padding-bottom: 20px;}
+#content-11 .m-top{order: 2; margin-top: 30px !important;}
+#gallery-1{padding-top: 30px;}
+#content-11 .container{padding: 0;}
+#reviews-1{text-align: center;}
+footer{text-align: center;}
+
+#reviews-1 .col-md-4{margin-bottom: 30px;}
+}

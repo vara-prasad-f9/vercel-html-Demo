@@ -231,31 +231,29 @@
 		/*	Gallery Carousel Slick
 		/*----------------------------------------------------*/
 		
-		$('.gallery-carousel').slick({
+		$('.gallery-carousel1').slick({
 			infinite: true,
 			autoplay: true,
-			centerMode: true,
+			
 			dots: true,
 			autoplaySpeed: 3500,
 			speed: 1000,
 			slidesToShow: 5,
 			slidesToScroll: 1,
-			variableWidth: true,
+			
 			responsive: [
 			    {
 			      breakpoint: 769,
 			      settings: {
-			        slidesToShow: 3
+			        slidesToShow: 2
 			      }
 			    },
 			    {
 			      breakpoint: 480,
 			      settings: {
 				    dots: false,
-			        slidesToShow: 1,
-			        variableWidth: false,
-			        fade: true,
-					cssEase: 'linear'
+			        slidesToShow: 2,
+			     
 			      }
 			    }
 			]
