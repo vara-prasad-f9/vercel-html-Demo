@@ -187,5 +187,6 @@ input, select, textarea{border-color: #ccc !important;}
 #reviews-1{text-align: center;}
 footer{text-align: center;}
 
-#reviews-1 .col-md-4{margin-bottom: 30px;}
+#reviews-1 .col-md-4{margin-bottom: 30px; order: 1;}
+#reviews-1 .col-md-8{order: 2;}
 }
