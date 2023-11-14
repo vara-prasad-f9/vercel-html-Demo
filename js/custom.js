@@ -269,8 +269,24 @@ $('.main-banner').slick({
 			dots: true,
 			autoplaySpeed: 1500,
 			speed: 1000,
-			slidesToShow: 1,
+			slidesToShow: 4,
 			slidesToScroll: 1,
+			responsive: [
+			    {
+			      breakpoint: 769,
+			      settings: {
+			        slidesToShow: 2
+			      }
+			    },
+			    {
+			      breakpoint: 480,
+			      settings: {
+				    dots: false,
+			        slidesToShow: 1,
+			     
+			      }
+			    }
+			]
 			
 			
 		});	

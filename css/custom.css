@@ -1,8 +1,7 @@
 .primarybg{  background: #d42027;}
 .secondarybg{ background: #0b173e;}
-#header {
-  border-bottom: solid 1px #000000;
-}
+.greybg{background: #f0edff;}
+
 .header-top {
   background: #feeeef;
   
@@ -163,6 +162,23 @@
 .wsmenu>.wsmenu-list>li>a{font-size: 13px; padding: 10px 8px; margin: 0 5px; }
 
 input, select, textarea{border-color: #ccc !important;}
+
+.hero-section{background: #f0edff; padding: 30px 30px; margin-bottom: 30px;}
+.main-banner .item{text-align: center;  margin: 0 10px; height: auto !important;
+
+
+border: solid 1px #eee;
+padding: 15px 15px;
+background-color: #fff;
+-webkit-box-shadow: 0px 5px 10px 0 rgba(10, 10, 10, 0.05);
+box-shadow: 0px 5px 10px 0 rgba(10, 10, 10, 0.05);}
+
+
+.main-banner .item iframe{width: 100%; height: 500px !important; margin-bottom: 10px; display: block; margin: 0 auto 10px auto; border: solid 1px #ccc;}
+.main-banner .item h3{font-size: 24px; font-weight: 700; color: #1a0d52;}
+.fbox-2{min-height: 300px;}
+
+
 
 
 @media (min-width: 992px) and (max-width: 1199.95px){
