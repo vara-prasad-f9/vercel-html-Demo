@@ -267,8 +267,8 @@ $('.main-banner').slick({
 			infinite: true,
 			autoplay: true,
 			dots: true,
-			autoplaySpeed: 1500,
-			speed: 1000,
+			autoplaySpeed: 5000,
+			speed: 500,
 			slidesToShow: 4,
 			slidesToScroll: 1,
 			responsive: [
