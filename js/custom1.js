@@ -269,7 +269,7 @@ $('.main-banner').slick({
 			dots: true,
 			autoplaySpeed: 5000,
 			speed: 500,
-			slidesToShow: 1,
+			slidesToShow: 4,
 			slidesToScroll: 1,
 			responsive: [
 			    {

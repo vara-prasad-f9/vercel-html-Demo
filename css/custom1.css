@@ -164,7 +164,7 @@ p,li{color: #000;}
   object-fit: contain;
 }
 
-.wsmenu>.wsmenu-list>li>a{font-size: 13px; padding: 10px 8px; margin: 0 5px; }
+.wsmenu>.wsmenu-list>li>a{font-size: 18px; padding: 10px 15px; margin: 0 5px; }
 
 input, select, textarea{border-color: #ccc !important;}
 
